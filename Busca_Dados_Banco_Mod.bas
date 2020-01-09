@@ -11,7 +11,7 @@ Public Sub AtualizaDadosBanco()
     Set vUltCelSel = ActiveCell
     
     Dim SQL         As String
-    'Dim cn          As New ADODB.Connection
+    Dim cn          As New ADODB.Connection
     Dim rs          As New ADODB.Recordset
     Dim i           As Integer
     Dim Col         As Integer
